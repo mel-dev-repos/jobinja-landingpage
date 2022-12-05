@@ -1,0 +1,135 @@
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  .header {
+    display: flex;
+  }
+  .text {
+    width: 100% !important;
+    height: 28vh;
+  }
+  .info-content .column-pic {
+    width: 16rem;
+  }
+  .info-content .blog-info .first-pic {
+    width: 17rem;
+  }
+  .info-content .cvb {
+    height: 16rem;
+    width: 50% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .parent {
+    margin-top: 2rem;
+    width: 80%;
+  }
+  .header {
+    align-items: center;
+    padding: 1rem 0;
+    justify-content: space-evenly;
+  }
+  .header ul {
+    display: none;
+  }
+  .icon-menu {
+    display: inline-block !important;
+    color: white;
+    border-radius: 3px 3px 3px 3px;
+    background-color: #555;
+    padding: 5px;
+    height: 15px;
+  }
+  .header-logo {
+    border: 1px solid transparent;
+  }
+  .logo-img {
+    width: 2rem;
+    height: 1rem;
+  }
+  .search-filter {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+  }
+  .search-filter .content input {
+    height: 3rem;
+  }
+  .search-filter button {
+    height: 3rem;
+    width: 95%;
+    margin-top: 1rem;
+  }
+  .search-filter select {
+    display: none;
+  }
+  .main-img {
+    background-repeat: repeat;
+  }
+  .main-img .text {
+    height: auto;
+    border-radius: 0px;
+    text-align: center;
+  }
+  .main-img .text h1 {
+    font-size: 17px;
+  }
+  .main-img .text p {
+    font-size: 11px;
+  }
+  .column-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .gray-box {
+    display: none;
+  }
+  .info-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-content .cvb {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .job-offer .card {
+    margin: 1rem;
+    width: 100%;
+  }
+  .footer-menu {
+    flex-direction: column;
+    padding: 2rem 5rem !important;
+  }
+}
+@media only screen and (width: 1024px) {
+  .info-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .search-filter {
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+  .search-filter input {
+    width: 16rem !important;
+  }
+  .search-filter button {
+    margin: 10px;
+  }
+  .search-filter select {
+    width: 16rem !important;
+  }
+}
+@media only screen and (width: 768px) {
+  .search-filter {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+  }
+  .search-filter .content input {
+    height: 3rem;
+    width: 44rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */
